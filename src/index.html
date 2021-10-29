@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>ToDoList</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="todolist">
+          <h1 class="todolist__title">Task</h1>
+          <div class="wrapper">
+            <div class="input__wrapper">
+              <input
+                class="input__text js-input-task"
+                type="text"
+                placeholder="Write your task"
+              />
+              <span class="js-error-message">Field is empty try again</span>
+            </div>
+            <div class="button__wrapper">
+              <button class="button__addtask js-add-task-button" type="button">
+                Add
+              </button>
+            </div>
+          </div>
+          <div class="todos__wrapper js-todos-tasks">
+            <div class="todo__wrapper"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/scripts.js"></script>
+  </body>
+</html>
