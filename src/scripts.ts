@@ -7,8 +7,6 @@ let tasks: [];
 
 !localStorage.tasks ? tasks = [] : tasks = JSON.parse(localStorage.getItem('tasks'));
 
-let todoItemElements = [];
-
 function Task(description:any) {
   this.description = description;
   this.completed = false;
